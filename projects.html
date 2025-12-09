@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Number Navigation -->
+    <aside class="number-navigation">
+        <a href="#project1" class="number-nav-item active" data-project="1">1</a>
+        <a href="#project2" class="number-nav-item" data-project="2">2</a>
+    </aside>
+
+    <!-- Navigation -->
+    <nav class="main-navigation">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="main-content">
+        <!-- Hero section -->
+        <header class="hero-section full-screen">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="line">Project</span>
+                    <span class="line">Portfolio</span>
+                </h1>
+                <p class="hero-subtitle">Detailed Case Studies & Work Samples</p>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="arrow"></div>
+            </div>
+        </header>
+
+        <!-- Projects showcase -->
+        <section class="projects-vertical">
+            <div class="container">
+                <!-- Project 1 -->
+                <article id="project1" class="project-vertical-item">
+                    <div class="project-gallery" id="gallery1">
+                        <div class="gallery-slide active">
+                            <img src="my_pet_dog.jpg" alt="First page">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="game_jump_scare.jpg" alt="Jump Scare Point">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="game_explore.jpg" alt="Explore">
+                        </div>
+                    </div>
+
+                    <div class="project-vertical-content">
+                        <h2 class="project-title">My Pet Dog</h2>
+                        
+                        <div class="project-meta">
+                            <div class="project-meta-item">
+                                <i class="far fa-calendar"></i>
+                                <span>2024</span>
+                            </div>
+                            <div class="project-meta-item">
+                                <i class="far fa-clock"></i>
+                                <span>2 Months</span>
+                            </div>
+                            <div class="project-meta-item">
+                                <i class="fas fa-user-tie"></i>
+                                <span>5 Person Group Project</span>
+                            </div>
+                            <div class="project-meta-item">
+                                <i class="fas fa-tags"></i>
+                                <span>3D Horror Game</span>
+                            </div>
+                        </div>
+
+                        <p class="project-description-detailed">
+                            This is a game created using Godot in which players explore the environment
+                             and are chased by someone in a maze to escape the house.
+                        </p>
+
+                        <div class="project-features">
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Exciting and horror game</li>
+                                <li>Built with Godot Engine</li>
+                                <li>Explore the enviroment and chase in the maze</li>
+                                <li>3 Dimensional game</li>
+                                <li>Plot development</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-stack">
+                            <h4>Technologies Used</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Godot</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article id="project2" class="project-vertical-item">
+                    <div class="project-gallery" id="gallery2">
+                        <div class="gallery-slide active">
+                            <img src="ai_dental.png" alt="Dashboard">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="dental_ai_diagnosis.png" alt="Diagnosis Page">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="dental_health_assessment.png" alt="Health Assessment">
+                        </div>
+                    </div>
+
+                    <div class="project-vertical-content">
+                        <h2 class="project-title">DentAI Assistant</h2>
+                        
+                        <div class="project-meta">
+                            <div class="project-meta-item">
+                                <i class="far fa-calendar"></i>
+                                <span>2025</span>
+                            </div>
+                            <div class="project-meta-item">
+                                <i class="far fa-clock"></i>
+                                <span>1 Months</span>
+                            </div>
+                            <div class="project-meta-item">
+                                <i class="fas fa-user-tie"></i>
+                                <span>Individual Assignment</span>
+                            </div>
+                            <div class="project-meta-item">
+                                <i class="fas fa-tags"></i>
+                                <span>Mobile, Health & Dental</span>
+                            </div>
+                        </div>
+
+                        <p class="project-description-detailed">
+                            Having previously worked as a dental nurse, I've notice that many patient
+                            lack sufficient understanding of their own dental health. 
+                        </p>
+
+                        <div class="project-features">
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Identify potential dental issues</li>
+                                <li>Understand how their medications work.</li>
+                                <li>Book appointments.</li>
+                                <li>Integration with wearables</li>
+                                <li>Access an AI chatbot linked to an expert dental library to ask questions.</li>
+                                <li>Receive post-surgery care tips.</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-stack">
+                            <h4>Technologies Used</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section class="contact-section full-screen">
+            <div class="container">
+                <h2 class="section-title">Interested in Collaboration?</h2>
+                <p class="contact-text">
+                    Have a project in mind? Let's discuss how we can work together to bring your ideas to life.
+                </p>
+                <a href="contact.html" class="contact-button">
+                    Get in Touch
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Southern University College's Student, Lim Jia Xuan, B240163C.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const numberNavItems = document.querySelectorAll('.number-nav-item');
+            const projectItems = document.querySelectorAll('.project-vertical-item');
+            
+            window.addEventListener('scroll', function() {
+                const scrollPos = window.scrollY + 200;
+                
+                if (scrollPos < projectItems[1].offsetTop) {
+                    updateActiveNav('1');
+                } else {
+                    updateActiveNav('2');
+                }
+            });
+            
+            function updateActiveNav(projectNum) {
+                numberNavItems.forEach(item => {
+                    item.classList.toggle('active', item.getAttribute('data-project') === projectNum);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

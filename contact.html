@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="main-navigation">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="main-content">
+        <!-- Hero section -->
+        <header class="hero-section full-screen" style="background-image: url('contact_background.png'); background-size: cover; background-position: center; position: relative;">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="line">Get In</span>
+                    <span class="line">Touch</span>
+                </h1>
+                <p class="hero-subtitle">Let's discuss our collaboration</p>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="arrow"></div>
+            </div>
+        </header>
+
+        <!-- Contact form section -->
+        <section class="about-section full-screen">
+            <div class="container">
+                <h2 class="section-title">Send a Message</h2>
+                <article class="contact-container">
+                    <p class="about-text">
+                        Interested in collaboration? Fill out the form below and I'll get back to you as soon as possible. :)
+                    </p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <!-- Text input -->
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" required placeholder="Your name">
+                        </div>
+                        
+                        <!-- Email input -->
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" required placeholder="email.address@email.com">
+                        </div>
+                        
+                        <!-- Datalist input -->
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" list="subject-options" id="subject" name="subject" 
+                                   class="form-input" 
+                                   placeholder="Select a subject or type your own">
+                            <datalist id="subject-options">
+                                <option value="Feedback">
+                                <option value="Project Collaboration">
+                                <option value="Freelance Work">
+                                <option value="Other (you can specify in the message)">
+                            </datalist>
+                        </div>
+                        
+                        <!-- Textarea input -->
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-textarea" required placeholder="Leave a message to let me know more..."></textarea>
+                        </div>
+                        
+                        <!-- Checkbox input -->
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">I have budget, let's do paid work together.</label>
+                        </div>
+                        
+                        <!-- Submit button -->
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact information -->
+        <section class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Other Ways to Connect</h2>
+                <article class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3 class="info-title">Email</h3>
+                        <p class="info-text">b240163c@sc.edu.my</p>
+                        <p class="info-text">For direct inquiries</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3 class="info-title">Phone</h3>
+                        <p class="info-text">+60 10-875 0849</p>
+                        <p class="info-text">Everyday, 24/7</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3 class="info-title">My School's Location</h3>
+                        <p class="info-text">Southern University College, Malaysia.</p>
+                        <p class="info-text">I'm available for remote work worldwide</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Social links section -->
+        <section class="about-section full-screen">
+            <div class="container">
+                <h2 class="section-title">Connect on Social Media</h2>
+                <article class="social-connect">
+                    <p class="about-text">
+                        Follow me on social media to see my latest work, design thoughts, and behind-the-scenes content.
+                    </p>
+                    <div class="social-buttons">
+                        <a href="https://www.linkedin.com/in/jia-xuan-lim-8a092326a/" class="social-button">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.instagram.com/xuanlim03_?igsh=dmxvbG9lcW16a2l6" class="social-button">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://github.com/jx273" class="social-button">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Southern University College's Student, Lim Jia Xuan, B240163C.</p>
+    </footer>
+</body>
+</html>
